@@ -5,7 +5,8 @@ body {
   width: 100%;
   background-image: url('bg-art.jpg');
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+  background-color: #243848;
   font-family: 'Raleway', sans-serif;
   font-size: 10px;
 }
@@ -191,7 +192,7 @@ button.generate {
 
 @media screen and (max-width: 710px) {
   main {
-    width: 18rem;
+    width: 25rem;
   }
 
   header {
@@ -199,11 +200,11 @@ button.generate {
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   p.quotation {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .popup {
@@ -211,13 +212,28 @@ button.generate {
   } 
 
   .popup-content {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 500px) {
-    body {
-      background-size: auto 640px;
+  main {
+    height: 15rem;
+    margin: 13rem auto;
+  }
+
+  header {
+    margin: -2.6rem -1rem;
+  }
+
+  .popup {
+    max-width: 10rem;
+    height: 12rem;
+    margin: 12.2rem auto;
+  } 
+
+  .popup-content {
+    font-size: 0.8rem;
   }
 }
-/* media queries end */
+/* media queries end
