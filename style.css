@@ -211,7 +211,7 @@ button.generate {
 }
 @media screen and (max-width: 500px) {
   body {
-    padding: 10rem 0;
+    padding: 12.3rem 0;
   }
   main {
     height: 15rem;    
@@ -234,10 +234,10 @@ button.generate {
   .popup {
     width: 10rem;
     height: 12rem;
-    margin: 9.5rem auto;
+    margin: 11.6rem auto;
   } 
   .popup-content {
     font-size: 0.8rem;
   }
 }
-/* media queries end
+/* media queries end */
