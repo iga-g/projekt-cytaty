@@ -193,67 +193,52 @@ button.generate {
   main {
     min-width: 60vw;
   }
-
   header {
     margin: -4.4rem -1rem;
   }
-
   h2 {
     font-size: 5rem;
   }
-
   p.quotation {
     font-size: 1.2rem;
   }
-
   p.quotation::first-letter {
     font-size: 1.5rem;
   }
-
   .popup {
     max-width: 15rem;
   } 
-
   .popup-content {
     font-size: 1rem;
   }
 }
-
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   body {
-    padding: 13rem 0;
+    padding: 10rem 0;
   }
-
   main {
     height: 15rem;    
   }
-
   header {
     margin-top: -3.1rem;
   }
-
   h2 {
     font-size: 3.5rem;
   }
-
   button.generate {
     font-size: 1.2rem;
   }
-
   p.quotation {
     font-size: 1rem;
   }
-
   p.quotation::first-letter {
     font-size: 1.3rem;
   }
-
   .popup {
-    max-width: 10rem;
+    width: 10rem;
     height: 12rem;
-    margin: 12.2rem auto;
+    margin: 9.5rem auto;
   } 
-
   .popup-content {
     font-size: 0.8rem;
   }
