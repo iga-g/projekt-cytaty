@@ -175,20 +175,16 @@ button.generate {
   main {
     width: 80vw;
   }
-
   header {
     margin: -4.4rem -1rem;
   }
-
   h2 {
     font-size: 5rem;
   }
-
   .popup {
     max-width: 20rem;
   } 
 }
-
 @media screen and (max-width: 710px) {
   main {
     min-width: 60vw;
@@ -215,6 +211,7 @@ button.generate {
 @media screen and (max-width: 500px) {
   body {
     padding: 10rem 0;
+    max-height: 100vh;
   }
   main {
     height: 15rem;    
