@@ -10,6 +10,10 @@ In the future I would like to expand the list of citations and maybe create a sm
 
 ## Authors and acknowledgment
 
+♡ Thanks to:
+
+[Twitter - Twemoji](https://twemoji.twitter.com/) for favicon [(CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
 ## Project status
 
 Completed and responsive. You can take care of your mental health and generate a quote!
