@@ -43,14 +43,12 @@ const authorArray = [
   "Diana Spencer",
   "Vivian Green"]
 
-
-// generating a quote
+  
 const generateButton = document.querySelector('.generate');
 
 generateButton.addEventListener('click', () => {
   const randomQuote = Math.floor(Math.random() * 20);
 
-  // typing effect
   let i = 0;
   const text = `${quotationArray[randomQuote]} - ${authorArray[randomQuote]}`;
 
@@ -69,7 +67,6 @@ generateButton.addEventListener('click', () => {
 // }, { once: true }); - jeśli chcę pozwolić na wygenerowanie tylko raz na sesje, ale w tym przypadku nie potrzebuję, ponieważ chowam button generowania cytatu
 
 
-// copyright popup
 const copyright = document.querySelector('.copyright');
 const popup = document.querySelector('.popup-wrapper');
 const popupClose = document.querySelector('.popup-close');
@@ -81,7 +78,3 @@ copyright.addEventListener('click', () => {
 popupClose.addEventListener('click', () => {
   popup.style.display = 'none';
 });
-
-// popup.addEventListener('click', () => {
-//   popup.style.display = 'none';
-// }); 
